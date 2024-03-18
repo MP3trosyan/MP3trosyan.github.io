@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body class>
+
+    
+    <nav class="nav">
+        <div class="container">
+            <div class="nav-row">
+                <a href="./index.html" alt="Loading..." class="logo"><strong>Michael's</strong> portfolio</a>
+
+                <button class="dark-mode-btn">
+                    <img src="./img/icons/sun.svg" alt="Sun-Mode" class="dark-mode-btn_icon">
+                    <img src="./img/icons/moon.svg" alt="Moon-Mode" class="dark-mode-btn_icon">
+                </button>
+
+                <ul class="nav-list">
+                    <li class="nav-list__item"><a href="./index.html" class="nav-list__link nav-list__link--active">Home</a></li>
+                    <li class="nav-list__item"><a href="./skills.html" class="nav-list__link">Skills</a></li>
+                    <li class="nav-list__item"><a href="./contacts.html" class="nav-list__link">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="header">
+        <div class="header__wrapper">
+            <div class="header__title">
+                <strong>Hi my name is <em>Michael</em></strong><br>
+                    I am a beginner programmer.
+            </div>
+            <div class="header__text">
+                <p>This is my portfolio</p>
+            </div>
+            <a href="./img/resume/Michael's Resume.jpg" class="btn" download>Download CV</a>
+        </div>
+    </header>
+
+    <main class="main">
+        <h2 class="main_title">Projects</h2>
+        <div class="section">
+            <div class="slider">
+                <!-- Here will be my projects... -->
+                <div class="slider_img" data-active>
+                    <a class="slide_link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                        <img src="./img/projects/4.png alt="Loading...">
+                    </a>
+                </div>
+                <div class="slider_img">
+                    <a class="slide_link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                        <img src="./img/projects/clickonme2.jpg" alt="Loading...">
+                    </a>
+                </div>
+                <div class="slider_img">
+                    <a class="slide_link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                    <img src="./img/projects/clickonme3.png" alt="Loading...">
+                    </a>
+                </div>
+                <!-- Buttons left/right -->
+                <button class="slide_btn left" onclick="leftButton();">
+                    <img class="button_img" src="./img/projects/left-strelka.png" alt="left_button">
+                </button>
+                <button class="slide_btn right" onclick="rightButton();">
+                    <img class="button_img" src="./img/projects/right-strelka.png" alt="right_button">
+                </button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <ul class="social">
+                    <!-- <li class="social_items"><a href="#!"><img src="/Portfolio/img/icons/vk.svg" alt=""></a></li> -->
+                    <li class="social_items"><a href="https://www.instagram.com/iamike0_o?igsh=MW1kbm1ia2VqYzMzOQ==" target="_blank"><img src="./img/icons/instagram.svg" alt="Instagram Logo"></a></li>
+                    <!-- <li class="social_items"><a href="#!"><img src="/Portfolio/img/icons/twitter.svg" alt=""></a></li> -->
+                    <li class="social_items"><a href="https://github.com/MP3trosyan" target="_blank"><img src="./img/icons/gitHub.svg" alt="GitHub Logo"></a></li>
+                    <!-- <li class="social_items"><a href="#!"><img src="/Portfolio/img/icons/linkedIn.svg" alt=""></a></li> -->
+                </ul>
+                <div class="copywright">
+                <p>Socials</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+   
+    <script src="./js/index.js"></script>
+</body>
+</html>
